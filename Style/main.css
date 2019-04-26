@@ -18,8 +18,50 @@ section.control{
     min-height: 80px;
 }
 
+section.plate{
+    width: 19%;
+    border: 1px solid #000000;
+    float: left;
+}
+
 .shot{
     width: 40px;
-    height: 40px;
+    height: 20px;
     border: 1px solid #000000;
+    display: block;
+    margin: 2px auto;
+}
+
+p.plateText{
+   width: 100%;
+   text-align: center;
+   margin: 2px;
+}
+
+.degreeRange{
+    width: 90%;
+    height: 30px;
+    display: block;
+    border: 1px solid #000000;
+    margin: auto;
+}
+
+#hit{
+    width: 49%;
+    height: 50px;
+    margin: auto;
+    font-size: 1.5em;
+    font-weight: bold;
+    background: green;
+    color: white;
+}
+
+#miss{
+    width: 49%;
+    height: 50px;
+    margin: auto;
+    font-size: 1.5em;
+    font-weight: bold;
+    background: red;
+    color: white;
 }
